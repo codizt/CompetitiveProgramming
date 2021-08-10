@@ -1,6 +1,6 @@
 /*
 	Name: DEVARAJA G
-	Github: https://github.com/codizt
+	Github: https://github.com/codizt/CompetitiveProgramming
 	Competition: 
 	Problem:
 	Link:
@@ -8,34 +8,35 @@
 
 #include <bits/stdc++.h>
 
-#define for0(i, n) for (int i = 0; i < (int)(n); ++i)
-#define for1(i, n) for (int i = 1; i <= (int)(n); ++i)
-#define forc(i, l, r) for (int i = (int)(l); i <= (int)(r); ++i) 
-#define forr0(i, n) for (int i = (int)(n) - 1; i >= 0; --i) 
-#define forr1(i, n) for (int i = (int)(n); i >= 1; --i) 
+#define FOR0(i, n) for (int i = 0; i < (int)(n); ++i)
+#define FOR1(i, n) for (int i = 1; i <= (int)(n); ++i)
+#define FORC(i, l, r) for (int i = (int)(l); i <= (int)(r); ++i) 
+#define FORR0(i, n) for (int i = (int)(n) - 1; i >= 0; --i) 
+#define FORR1(i, n) for (int i = (int)(n); i >= 1; --i) 
 
-#define pb push_back
-#define fi first
-#define se second
+#define PB push_back
+#define MP make_pair
+#define FI first
+#define SE second
 
-#define all(x) (x).begin(), (x).end()
-#define rall(x) (x).rbegin, (x).rend() 
+#define ALL(x) (x).begin(), (x).end()
+#define RALL(x) (x).rbegin, (x).rend() 
 
-#define tr(c,i) for(__typeof__((c)).begin() i = (c).begin(); i != (c).end(); i++)
-#define present(c,x) ((c).find(x) != (c).end())
-#define cpresent(c,x) (find(all(c),x) != (c).end())
-#define sz(a) int((a).size())
+#define TR(c,i) for(__typeof__((c)).begin() i = (c).begin(); i != (c).end(); i++)
+#define PRESENT(c,x) ((c).find(x) != (c).end())
+#define CPRESENT(c,x) (find(all(c),x) != (c).end())
+#define SZ(a) int((a).size())
 
 using namespace std;
 
-typedef vector<int> vi;
-typedef vector<vi> vvi;
-typedef pair<int, int> ii;
-typedef vector<ii> vii;
-typedef long long ll;
-typedef vector<ll> vll;
-typedef vector<vll> vvll;
-typedef double ld;
+typedef vector<int> VI;
+typedef vector<VI> VVI;
+typedef pair<int, int> II;
+typedef vector<II> VII;
+typedef long long LL;
+typedef vector<LL> VLL;
+typedef vector<VLL> VVLL;
+typedef double LD;
 
 void solve(){
 	
